@@ -1,8 +1,8 @@
 """
 Jumping Statements:
-1.Pass --> Ignore
-2.Break --> Terminate
-3.Continue --> Skip
+1.Pass --> Ignore (If the statements are not yet finalized)
+2.Break --> Terminate (if the condition is true)
+3.Continue --> Skip (Current iteration)
 """
 
 #if True:

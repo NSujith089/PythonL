@@ -22,7 +22,7 @@ count
 remove prefix
 remove suffix
 split
-strip
+strip --> Trim
 rstirp
 lstrip
 
@@ -74,3 +74,7 @@ v=python.lstrip()
 print(len(v)) 
 v=python.rstrip()
 print(len(v)) 
+
+# strip means trim, Can't remove spaces in the middle of 2 words.
+
+

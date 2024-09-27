@@ -1,3 +1,4 @@
+# Tuple is immutable --> We cannnot add the elements.
 #c = ()
 #print(type(c)) --> Empty Tuple
 
@@ -31,6 +32,6 @@
 #print(t1 is t2) --> Shows as false as elements in t1 are not similar to elements in t2
 #print(t1 is not t2) --> Shows as True as elements in t1 are not similar to elements in t2 as expected.
 
-t1=(1,2,3)
-t2=(1,2,3)
-print(t1 is t2)
+#t1=(1,2,3)
+#t2=(1,2,3)
+#print(t1 is t2) --> Shows as true because both elements are similar in both t1 and t2. --> identity

@@ -8,9 +8,9 @@ list
 #v1 = [1,5,6,75,'sujith']
 # print(v1) --> Printing the list
 # print(v1[3]) --> 75
-# print(v1[-1]) --> For printing the last element
+# print(v1[-1]) --> For printing the last element --> Known as negative indexing
 
-# print(v1[0:4:2]) --> slicing the list
+# print(v1[0:4:2]) --> slicing the list -->[start:stop:skip] --> [s:s:s]
 
 '''
 append - To the element at the last in a list
@@ -31,7 +31,7 @@ v = [1,45,72,1,36,'sujith']
 # v.pop(1) --> Remove the element based on index 
 # print(v.index(45)) --> To find the index of the element
 
-#for i in [1,45,72,1,36,'sujith'] :
+#for i in [1,45,72,1,36,'sujith'] : --> To loop every element in the list
 #    print(i)
     
 v.insert(0,"xyz")

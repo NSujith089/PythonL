@@ -29,10 +29,13 @@ Dictionary Methonds:
 
 #for i in {1:'abc',22: 'sn','sujith':10} :
 #    print(i) --> Prints only keys from the dictionary
+
+#for i in {1:'abc',22: 'sn','sujith':10}.keys() :
+#    print(i) --> Prints only keys from the dictionary
     
     
 #for i in {1:'abc',22: 'sn','sujith':10}.values() :
-#    print(i)
+#    print(i) --> Prints only values from the dictionary
  
-for i,j in {1:'abc',22: 'sn','sujith':10}.items() :
-    print(i,j)
+#for i,j in {1:'abc',22: 'sn','sujith':10}.items() :
+#    print(i,j) --> Prints items from the dictionary
